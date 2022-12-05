@@ -1,0 +1,127 @@
+.header1{
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 60px; */
+}
+nav{
+    display: flex;
+}
+body{
+    background-color: rgb(244, 234, 234);
+}
+*{
+    text-decoration: none;
+}
+nav a{
+    margin: 5px;
+    padding: 5px;
+    color: grey;
+}
+.navbar{
+    margin: 5px;
+}
+nav a:hover{
+    color: orange;
+}
+.banntext span:nth-of-type(1){
+    color: blue;
+}
+.banntext span:nth-of-type(3){
+    color: orange;
+}
+.banntext span:nth-of-type(3){
+    color: blue;
+}
+.banntext{
+   padding: 10px;
+    text-align: center;
+   
+}
+.bannerr{
+    background-image: url(images/banner-bg.webp);
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+}
+.banntext h2{
+    margin-top: 
+}
+.cont{
+    width: 50%;
+    margin: auto;
+}
+.ShopButton{
+    margin: 20px;
+    display: inline-block;
+    border-radius: 2px;
+    border: solid 1.5px black;
+    color: black;
+}
+.ShopButton:hover{
+   background-color: orange;
+}
+h2 span{
+    color: white;
+    /* border:1px solid orange; */
+    background-color: orange;
+    }
+.revieww h2{
+    text-align: center;
+    
+}
+.revie{
+    border:2px solid black;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.revie .img1{
+    border-radius: 105px;
+    
+}
+.Blogs h2{
+    text-align: center;
+}
+.blog{
+    padding: 40px;
+   
+    display: grid;
+    
+    gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.blog img{
+    width: 100%;
+  
+    
+}
+.imgg{
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.a:hover{
+    color: orange;
+}
+.header1{
+    top: 0;
+    position: sticky;
+    background-color: white;
+}
+.log{
+    border: 2px solid rgb(220, 213, 213);
+    border-radius: 5px;
+    background-color: rgb(213, 206, 206);
+    width:30px;
+    margin: 5px;
+}
+footer{
+    background-color: rgb(172, 166, 166);
+}
